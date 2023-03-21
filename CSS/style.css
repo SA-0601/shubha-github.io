@@ -1,0 +1,119 @@
+
+   
+      body{
+        background-color: beige;
+        border: solid;
+        border-top: 20%;
+        border-color: brown;
+        padding: 0%;
+        margin: 0.5%;
+      }
+      
+      h1{
+        color: brown;
+        text-decoration: underline;
+        font-style: normal;
+        font-size: 40px;
+        font-weight:200;
+        text-align: center;
+        text-transform: capitalize;
+      }
+      
+      h2{
+        color: rgb(154, 13, 13);
+        font-weight: 100;
+        font-size: 30;
+        font-style: italic;
+        text-align: center;
+      }
+      
+      h3{
+        font-size: 22;
+       
+      }
+      p{
+        color:black;
+        font-size: 17;
+        text-align: left;
+        word-spacing: 0.4em;
+        line-height: 1.4;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      a{
+        color: purple;
+      }
+      nav{
+        word-spacing: 5em;
+        margin-left: 5%;
+        margin-right: 5%;
+        position:static;
+      }
+
+      .container{
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+        justify-content: left;
+      }
+      .image{
+        margin-top: 1%;
+        flex-basis: 25%;
+      }
+      .text{
+        
+      }
+      span{
+        font-size: 80;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      form{
+            padding: 15px;
+            font-style:italic;
+            font-size: 18;
+            border-style: none;
+            font-weight: 900px;
+            text-align:left;
+            line-height: 2;
+        }
+        input[type=button]{
+            color: black;
+            background-color:rgba(192, 192, 192, 0.429);
+            order-radius: .25em;
+            cursor: pointer;
+            border: 0;
+            padding: .4em .8em;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: 300;
+            color: inherit;
+            margin-top: 3%;
+            align-items: center;
+                     
+        }
+        input[type=button]:hover{
+            border: solid;
+            background-color: rgba(13, 118, 13, 0.897);
+        }
+        input[type=text]{
+            align-items:flex-end;
+        }
+        
+        #div2{
+            margin-left: 5%;
+            position:static;
+        }
+        #div3{
+            margin-left: 5%;
+            position: static;
+        }
+        #div4{
+            margin-left: 5%;
+        }
+        #thanks{
+            color:blueviolet;
+            font-style: italic;
+            font-size: 17;
+            margin-left: 5%;
+        }
+        
